@@ -14,7 +14,7 @@ export default{
   async asyncData({ $content, params, error }) {
     try {
       const links = await $content('links',{ deep: true })
-        .sortBy('created')
+        .sortBy('created','desc')
         .fetch()
       return { links }
     } catch (err) {
