@@ -1,1 +1,14 @@
+Goal:
 
+- Build a (very very) simple linktree/linkbio alternative with nuxt/content and GitJournal mobile app for easy editing
+
+Structure:
+
+- links in "links/"-directory as simple markdown files (not implemented, markdown files are read from root directory currently bc $content('links/') did not work)
+- settings.json for title, links, privacy, link (not implemented yet)
+- deploy to ghpages or sftp webspace via GitHub Actions (fullstatic, not implemented yet)
+
+Tutorials used:
+
+- Manual installation of nuxt https://nuxtjs.org/docs/2.x/get-started/installation#manual-installation
+- https://content.nuxtjs.org/
