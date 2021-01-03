@@ -4,8 +4,11 @@ Beware: Very early version, just a quick draft.
 
 Goal:
 
-- Build a (very very) simple linktree/linkbio alternative with nuxt/content and GitJournal mobile app for easy editing
-- final result should look something like that: https://linkent.montoulieu.dev
+- Build a (very very) simple linktree/linkbio alternative with nuxt/content
+- Use GitJournal mobile app for easy adding of new links https://gitjournal.io/
+- Host it on GitHub pages or your own server #notracking (via Github Actions)
+- Final result should look something like that: https://linkent.montoulieu.dev
+- Full static site /bc of climateemergency, save energy https://www.youtube.com/watch?v=joc9j9e-D3s
 
 Local setup:
 
