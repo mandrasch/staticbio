@@ -1,6 +1,13 @@
+Beware: Very early version, just a quick draft.
+
 Goal:
 
 - Build a (very very) simple linktree/linkbio alternative with nuxt/content and GitJournal mobile app for easy editing
+
+Local setup:
+
+1. yarn install
+2. yarn dev
 
 Structure:
 
