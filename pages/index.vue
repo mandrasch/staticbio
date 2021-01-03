@@ -11,17 +11,19 @@
 
 <script>
 export default{
-  async asyncData({ $content, params }) {
+  async asyncData({ $content, params, error }) {
     try {
-      // TODO: couldn't it get to work with folders? $content('links'
-      // GitJournal uses 'created' in YAML front matter
-      const links = await $content('/',{ deep: false })
+      const links = await $content('links',{ deep: true })
         .sortBy('created')
         .fetch()
       return { links }
     } catch (err) {
-      // TODO: show error message
+      error({
+        statusCode: 404,
+        message: 'Page could not be found',
+      })
     }
   }
+  // TODO: get about.md to display more info?
 }
 </script>
