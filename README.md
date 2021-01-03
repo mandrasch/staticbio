@@ -1,4 +1,4 @@
-# static bio
+# staticbio
 
 Beware: Very early version, just a quick draft.
 
