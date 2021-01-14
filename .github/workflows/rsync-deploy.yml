@@ -38,4 +38,4 @@ jobs:
           remote_path: /var/www/html/staticbio/ # I'm using a subfolder
           remote_host: ${{ secrets.REMOTE_HOST }}
           remote_user: ${{ secrets.REMOTE_USER }}
-          remote_key: ${{ secrets.DEPLOY_KEY }}
+          remote_key: ${{ secrets.DEPLOY_KEY_PRIVATE }}
