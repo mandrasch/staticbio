@@ -1,5 +1,7 @@
 # staticbio
 
+![DEPLOY](https://github.com/programmieraffe/staticbio/workflows/DEPLOY/badge.svg)
+
 Beware: Very early version, just a quick draft.
 
 Goal:
